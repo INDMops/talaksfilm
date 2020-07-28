@@ -1,0 +1,312 @@
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #151617;
+}
+
+#heder {
+	position: relative;
+    width:1312px;
+    height:175px;
+    margin-top: -8px;
+    margin-left: -10px;
+    background-color:#7121AB;
+}
+
+#title {
+	width: 350px;
+	height: 75px;
+    margin-top: 20px;
+    margin-left:350px;
+    cursor: pointer;
+}
+
+#subtitle {
+    margin-top: 0px;
+    margin-left:350px;
+    font-size:16px;
+    color: #ffffff;
+}
+
+#menu {
+	position: absolute;
+	width:1325px;
+	margin-top: -20px;
+}
+
+#general {
+	position: relative;
+	width: 100px;
+	left: 350px;
+	top: 10px;
+	color: #D4A701;
+}
+
+#film {
+	position: relative;
+	width: 90px;
+	left: 375px;
+	top: 10px;
+}
+
+#serial {
+	position: relative;
+	width: 95px;
+	left: 400px;
+	top: 10px;
+}
+
+#cartoon {
+	position: relative;
+	width: 105px;
+	left: 425px;
+	top: 10px;
+}
+
+#about {
+	position: relative;
+	width: 80px;
+	left: 450px;
+	top: 10px;
+}
+
+#block1 {
+	position: relative;
+	margin-left: 250px;
+	margin-top: 0px;
+	width: 802px;
+	height: 300px;
+}
+
+#title_block1 {
+	color: #ffffff;
+}
+
+#matrix-time {
+	width: 130px;
+	margin-top: -7px;
+	margin-left: 0px;
+	border: 1px solid #D5D4D1;
+}
+
+#interstellar {
+	width: 130px;
+	margin-top: -7px;
+	margin-left: 15px; 
+	border: 1px solid #D5D4D1;
+}
+
+#madmax {
+	width: 130px;
+	margin-left: 15px;
+	border: 1px solid #D5D4D1;
+}
+
+#footer {
+	width: 1350px;
+	height: 270px;
+	margin-left: -10px;
+	margin-top: 70px;
+	background-color: #1E1D26;
+}
+
+#line {
+	height: 1px;
+	background-color: #ABB1BA;
+}
+
+#folow {
+	width: 195px;
+	height: 130px;
+	border-radius: 15px;
+	border: 1px groove black;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #fff;
+	background-color: #29282D;
+}
+
+#folow h3 {
+	color: #fff;
+	margin-left: 25px;
+}
+#youtubelogo {
+	width: 50px;
+	margin-left: 25px;
+}
+
+#discord-logo {
+	width: 70px;
+	margin-left: 35px;
+}
+
+#block3 {
+	width: 70%;
+	height: 85%;
+	margin-left: 350px;
+	margin-top: -155px;
+}
+
+#genre {
+	margin-left: 20px;
+	height: 210px;
+}
+
+.genres1 {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 18;
+}
+
+#genres2 {
+	margin-left: 130px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres3 {
+	margin-left: 270px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres4 {
+	margin-left: 370px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#cam {
+	width: 200px;
+	margin-left: 700px;
+	margin-top: -230px;
+}
+
+#copy {
+	color: #fff;
+	margin-top: -70px;
+	margin-left: 30px;
+}
+
+/*------------------------Под телефон-------------------------------*/
+
+@media (max-width: 1160px) {
+	#heder {
+	position: fixed;
+    width: 662.5px;
+    height: 85px;
+    top: 0px;
+    left: 0;
+    background-color:#7121AB;
+}
+
+#title {
+	position: fixed;
+	width: 175px;
+	height: 37.5px;
+    top: 12.5px;
+    left: 175px;
+    cursor: pointer;
+}
+
+#subtitle {
+	position: fixed;
+    top: 40px;
+    left: 175px;
+    font-size: 8px;
+    color: #C1C1C1;
+}
+
+#general {
+	position: fixed;
+	width: 50px;
+	left: 237.5px;
+	top: 62.5px;
+	font-size: 10px;
+	color: #D4A701;
+}
+
+#film {
+	position: fixed;
+	width: 45px;
+	left: 300px;
+	top: 62.5px;
+	font-size: 10px;
+	color: #ffffff;
+}
+
+#serial {
+	position: fixed;
+	width: 47.5px;
+	left: 357.5px;
+	top: 63.5px;
+}
+
+#cartoon {
+	position: fixed;
+	width: 52.5px;
+	left: 417.5px;
+	top: 62.5px;
+}
+
+#about {
+	position: fixed;
+	width: 40px;
+	left: 482.5px;
+	top: 61px;
+}
+
+#block1 {
+	margin-left: 175px;
+	margin-top: 97.5px;
+	width: 250px;
+	height: 100px;
+}
+
+#title_block1 {
+	font-size: 12.5px;
+}
+
+#matrix-time {
+	width: 50px;
+	margin-top: -3.5px;
+	margin-left: 1px; 
+	border: 2.5px solid #D5D4D1;
+}
+
+#interstellar {
+	width: 50px;
+	margin-top: -7px;
+	margin-left: 1px; 
+	border: 2.5px solid #D5D4D1;
+}
+
+#serch {
+	display: none;
+	margin-left: 450px;
+	margin-top: -100px;
+	width: 100px;
+	height: 50px;
+	background-color: #F9F7F3;
+	border: 0.5px solid #D5D4D1; 
+}
+
+#stitle {
+	width: 50px;
+}
+
+#form {
+	width: 100px;
+}
+
