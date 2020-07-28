@@ -1,0 +1,320 @@
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #151617;
+}
+
+#heder {
+	position: relative;
+    width:1312px;
+    height:175px;
+    margin-top: -8px;
+    margin-left: -10px;
+    background-color:#7121AB;
+}
+
+#title {
+	width: 350px;
+	height: 75px;
+    margin-top: 20px;
+    margin-left:350px;
+    cursor: pointer;
+}
+
+#subtitle {
+    margin-top: 0px;
+    margin-left:350px;
+    font-size:16px;
+    color: #ffffff;
+}
+
+#menu {
+	position: absolute;
+	width:1325px;
+	margin-top: -20px;
+}
+
+#general {
+	position: relative;
+	width: 100px;
+	left: 350px;
+	top: 10px;
+	color: #D4A701;
+}
+
+#film {
+	position: relative;
+	width: 90px;
+	left: 375px;
+	top: 10px;
+}
+
+#serial {
+	position: relative;
+	width: 95px;
+	left: 400px;
+	top: 10px;
+}
+
+#cartoon {
+	position: relative;
+	width: 105px;
+	left: 425px;
+	top: 10px;
+}
+
+#about {
+	position: relative;
+	width: 80px;
+	left: 450px;
+	top: 10px;
+}
+
+#block1 {
+	position: relative;
+	margin-left: 250px;
+	margin-top: 0px;
+	width: 802px;
+	height: 300px;
+}
+
+#title_film {
+	margin-left: 315px;
+	color: #FFFFFF;
+}
+
+#subtitle_film {
+	margin-left: 380px;
+	color: #C4D3E3;
+
+}
+
+#imgfilm {
+	width: 170px;
+	margin-left: 20px;
+	border-radius: 5px;
+	background: #2a2a2a;
+}
+
+#quality {
+	margin-top: -265px;
+	margin-left: 110px;
+	width: 76px;
+	color: #C5C1C1;
+	background-color: #151617;
+}
+
+.full_content-info {
+	width: 100%;
+	margin-left: 200px;
+	margin-top: -40px;
+}
+
+.full_info li {
+	padding:0 10px 7px 110px;
+	line-height:20px;
+	color:#fff;
+	font-size:14px;
+	list-style-type: none;
+	}
+
+.full_info li:nth-child(2n+1) {
+	background-color: #19191B;
+	list-style-type: none;
+}
+.full_info li > span:first-child { 
+	display:inline-block;
+	width:100px;
+	float:left;
+	margin-left:-100px;
+	color: #919296;
+	list-style-type: none;
+}
+
+.full_info li >  a {
+	color:#31C469;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.full_info {
+	position:relative;
+	list-style-type: none;
+	width:50%;
+}
+
+.lis {
+	list-style-type: none;
+}
+
+.age16 {
+	padding:2px;
+	border:1px solid;
+	border-radius:5px;
+	font-size:13px;
+	color:#f97709;
+}
+
+.full_content-desc {
+	width:75%;
+	color:#919296;
+	font-size:14px;
+	line-height:1.5
+}
+
+#full_content-desc h2 {
+	color:#fff;
+	margin-bottom:5px
+}
+
+.full_content-screens {
+	width:22%;
+	max-height:210px;
+	overflow:hidden;
+}
+
+.full_content-inner {
+	width:80%;
+	padding-left:48px;
+	padding-top:30px;
+	padding-bottom:5px
+}
+
+.full_content-inner.full_inner {
+	width:100%;
+	padding:0;
+}
+
+#scene {
+	margin-top: 460px;
+	margin-left: 296px;
+	width: 710px;
+	height: 375px;
+}
+
+#block2 {
+	 width: 1312px;
+	 height: 300px;
+}
+
+#title_block2 {
+	margin-left: 250px;
+	color: #fff;
+	font-weight:400;
+	
+}
+
+#interstellar {
+	width: 200px;
+	margin-left: 240px;
+}
+
+#madmax {
+	width: 200px;
+	margin-left: 450px;
+	margin-top: -45px;
+}
+
+#quality_inter {
+	width: 80px;
+	color: #2B4535;
+	margin-left: 350px;
+	margin-top: -310px;
+	background-color: #2B4535;
+}
+
+#footer {
+	width: 1350px;
+	height: 270px;
+	margin-left: -10px;
+	margin-top: 70px;
+	background-color: #1E1D26;
+}
+
+#line {
+	height: 1px;
+	background-color: #ABB1BA;
+}
+
+#folow {
+	width: 195px;
+	height: 130px;
+	border-radius: 15px;
+	border: 1px groove black;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #fff;
+	background-color: #29282D;
+}
+
+#folow h3 {
+	color: #fff;
+	margin-left: 25px;
+}
+#youtubelogo {
+	width: 50px;
+	margin-left: 25px;
+}
+
+#discord-logo {
+	width: 70px;
+	margin-left: 35px;
+}
+
+#block3 {
+	width: 70%;
+	height: 85%;
+	margin-left: 350px;
+	margin-top: -155px;
+}
+
+#genre {
+	margin-left: 20px;
+}
+
+.genres1 {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 18;
+}
+
+#genres2 {
+	margin-left: 130px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres3 {
+	margin-left: 270px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres4 {
+	margin-left: 370px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#cam {
+	width: 200px;
+	margin-left: 700px;
+	margin-top: -150px;
+}
+
+#copy {
+	color: #fff;
+	margin-top: -70px;
+	margin-left: 30px;
+}

@@ -1,0 +1,257 @@
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #151617;
+}
+
+#heder {
+	position: relative;
+    width:1312px;
+    height:175px;
+    margin-top: -8px;
+    margin-left: -10px;
+    background-color:#7121AB;
+}
+
+#title {
+	width: 350px;
+	height: 75px;
+    margin-top: 20px;
+    margin-left:350px;
+    cursor: pointer;
+}
+
+#subtitle {
+    margin-top: 0px;
+    margin-left:350px;
+    font-size:16px;
+    color: #ffffff;
+}
+
+#menu {
+	position: absolute;
+	width:1325px;
+	margin-top: -20px;
+}
+
+#general {
+	position: relative;
+	width: 100px;
+	left: 350px;
+	top: 10px;
+	color: #D4A701;
+}
+
+#film {
+	position: relative;
+	width: 90px;
+	left: 375px;
+	top: 10px;
+}
+
+#serial {
+	position: relative;
+	width: 95px;
+	left: 400px;
+	top: 10px;
+}
+
+#cartoon {
+	position: relative;
+	width: 105px;
+	left: 425px;
+	top: 10px;
+}
+
+#about {
+	position: relative;
+	width: 80px;
+	left: 450px;
+	top: 10px;
+}
+
+/*----------------------------------------Основні блоки------------------------------------------------*/
+#block1 {
+	margin-left: 250px;
+	margin-top: 30px;
+	width: 802px;
+	height: 230px;
+	border-radius: 20px;
+	background-color: #1E1D26;
+}
+
+#matrix {
+	width: 140px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#title1 {
+	margin-top: -205px;
+	margin-left: 180px;
+	color: #fff;
+}
+
+#description1 {
+	margin-left: 175px;
+	margin-top: -160px;
+	color: #919296;
+	width: 75%;
+}
+
+/*------------------------------------------Интерстеллар----------------------------------------------------*/
+#block2 {
+	margin-left: 250px;
+	margin-top: 25px;
+	width: 802px;
+	height: 230px;
+	border-radius: 20px;
+	background-color: #1E1D26;
+}
+
+#interstellar {
+	width: 140px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#description2 {
+	margin-left: 175px;
+	margin-top: -160px;
+	color: #919296;
+	width: 75%;
+}
+
+#title2 {
+	margin-top: -205px;
+	margin-left: 180px;
+	color: #fff;
+}
+
+/*---------------------------------------Мед-----макс-----------------------------------------------------------*/
+#block4 {
+	margin-left: 250px;
+	margin-top: 25px;
+	width: 802px;
+	height: 230px;
+	border-radius: 20px;
+	background-color: #1E1D26;
+}
+
+#madmax {
+	width: 140px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+#description3 {
+	margin-left: 175px;
+	margin-top: -160px;
+	color: #919296;
+	width: 75%;
+}
+
+#title3 {
+	margin-top: -170px;
+	margin-left: 180px;
+	color: #fff;
+}
+/*--------------------------------------------Підвал-------------------------------------------------------*/
+#footer {
+	width: 1350px;
+	height: 270px;
+	margin-left: -10px;
+	margin-top: 70px;
+	background-color: #1E1D26;
+}
+
+#line {
+	height: 1px;
+	background-color: #ABB1BA;
+}
+
+#folow {
+	width: 195px;
+	height: 130px;
+	border-radius: 15px;
+	border: 1px groove black;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #fff;
+	background-color: #29282D;
+}
+
+#folow h3 {
+	color: #fff;
+	margin-left: 25px;
+}
+#youtubelogo {
+	width: 50px;
+	margin-left: 25px;
+}
+
+#discord-logo {
+	width: 70px;
+	margin-left: 35px;
+}
+
+#block3 {
+	width: 70%;
+	height: 85%;
+	margin-left: 350px;
+	margin-top: -155px;
+}
+
+#genre {
+	margin-left: 20px;
+}
+
+.genres1 {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 18;
+}
+
+#genres2 {
+	margin-left: 130px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres3 {
+	margin-left: 270px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+
+}
+#genres4 {
+	margin-left: 370px;
+	margin-top: -170px;
+	color: #fff;
+	font-size: 18;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#cam {
+	width: 200px;
+	margin-left: 700px;
+	margin-top: -150px;
+}
+
+#copy {
+	color: #fff;
+	margin-top: -70px;
+	margin-left: 30px;
+}
